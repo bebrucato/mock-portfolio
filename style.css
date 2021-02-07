@@ -15,6 +15,8 @@ header {
     display: flex;
     border-radius: 20px 20px;
     box-shadow: 5px 0px 10px 0px rgb(65, 64, 64);
+    margin-bottom: 15px;
+    margin-top: 0px;
 }
 
 header h1 a{
@@ -46,10 +48,10 @@ header h1 a{
     font-size: 100%;
 }
 
-.part2 {
+.part2, .resume-intro {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
-    text-align: right;
+    text-align: left;
     text-shadow: 1px 1px 1px rgb(201, 197, 197);
     font-size: 200%;
     background-image: url(mockheader.jpg);
