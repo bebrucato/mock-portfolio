@@ -3,9 +3,12 @@
 }
 
 header {
-    background-image: url(mockheader.jpg);
     padding: 10px;
     justify-content: left;
+}
+
+.headerimg {
+    background-image: url(mockheader.jpg);
 }
 
 .self img {
