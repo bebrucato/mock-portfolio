@@ -4,19 +4,34 @@
 
 header {
     background-image: url(./images/mockheader.jpg);
-    padding: 20px;
+    padding: 10px;
 }
 
-h1 {
+header h1 a{
     color:aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 2px rgb(201, 197, 197);
-    text-align: left;
-    font-size: 200%;
+    justify-content: left;
 }
-nav, a {
+
+.self {
+    display: flex;
+    flex:1 1 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+	top:0; 
+	left:0; 
+}
+
+.self img {
+    border-radius: 20px 20px;
+    box-shadow: 5px 0px 10px 0px rgb(65, 64, 64);
+}
+
+.navtable a, nav {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
     background-color: rgb(10, 8, 8);
     color: aliceblue;
