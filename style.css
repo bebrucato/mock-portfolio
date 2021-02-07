@@ -12,6 +12,7 @@ header {
 }
 
 .self img {
+    display: flex;
     border-radius: 20px 20px;
     box-shadow: 5px 0px 10px 0px rgb(65, 64, 64);
 }
@@ -136,3 +137,16 @@ footer {
     padding: 5px;
     text-align: center;
 }
+
+
+
+
+@media screen and (max-width: 992px) {
+     {
+      width: 50%;
+    }
+
+@media screen and (max-width: 768px) {
+    {
+          width: 100%;
+        }
