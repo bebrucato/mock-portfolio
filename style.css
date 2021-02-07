@@ -12,6 +12,7 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 2px rgb(201, 197, 197);
     text-align: left;
+    font-size: 200%;
 }
 nav, a {
     display: flex;
@@ -25,7 +26,7 @@ nav, a {
     font-size: 100%;
 }
 
-.img-two {
+.part2 {
     background-image: url(./images/mockheader.jpg);
     padding: 15px;
 }
@@ -38,24 +39,75 @@ h2 {
     font-size: 200%;
 }
 
-.about-me-conatiner {
-    max-width: 300px;
-      max-height: 300px;
-      display: flex;
-    flex: 1 1 200px;
-    padding: 5px;
-    flex-wrap: wrap;
+.about-me-container {
+    max-width: 1000px;
+    max-height: 300px;
+    display: flex;
+    flex: 1 1 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.about-me-conatiner, h3 {
-    font-size: 200%;
+.about-me-container, h3 {
+    width: 100%;
+    font-size: 150%;
+    justify-content: flex-end;
+}
+
+.about-me-container p {
+    width:100%;
+   font-size: 18px;
+   justify-content: flex-start;
+   padding: 15px;
+   border-style: solid;
+   border-width: 0px 0px 0px 5px;
+}
+
+.work-container {
+    max-width: 1000px;
+    max-height: 300px;
+    display: flex;
+    flex: 1 1 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.about-me-conatiner, .intro {
+.work-container, h3 {
+    width: 100%;
+    font-size: 150%;
+    justify-content: flex-end;
+}
+
+.work-container p {
+    width:100%;
+   font-size: 18px;
+   justify-content: flex-start;
+   padding: 15px;
+   border-style: solid;
+   border-width: 0px 0px 0px 5px;
+}
+
+.contact-container {
+    max-width: 1000px;
+    max-height: 300px;
+    display: flex;
+    flex: 1 1 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.contact-container, h3 {
+    width: 100%;
+    font-size: 150%;
+    justify-content: flex-end; 
+}
+
+.contact-container p {
+    width:100%;
+   font-size: 18px;
+   justify-content: flex-start;
+   padding: 15px;
+   border-style: solid;
+   border-width: 0px 0px 0px 5px;
+}
+
 
 footer {
     background-color: rgb(10, 8, 8);
