@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./images/mockheader.jpg);
+    padding: 20px;
+}
+
+h1 {
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px rgb(201, 197, 197);
+    text-align: left;
+}
+nav, a {
+    text-align: right;
+    background-color: rgb(10, 8, 8);
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+}
+
+.img-two {
+    background-image: url(./images/mockheader.jpg);
+    padding: 30px;
+}
