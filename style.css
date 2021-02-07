@@ -7,6 +7,12 @@ header {
     justify-content: left;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+}
+
 .headerimg {
     background-image: url(mockheader.jpg);
 }
@@ -67,10 +73,11 @@ header h1 a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.about-me-container, h3 {
+.about-me-container h3 {
     width: 100%;
-    font-size: 150%;
+    font-size: 200%;
     justify-content: flex-end;
+    text-shadow: 2px 2px 2px rgb(201, 197, 197);
 }
 
 .about-me-container p {
@@ -83,25 +90,32 @@ header h1 a{
 }
 
 .work-container {
-    max-width: 1000px;
-    max-height: 300px;
     display: flex;
-    flex: 1 1 300px;
+    justify-content: space-between;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 300px;
+    max-height: 300px;
 }
 
-.work-container, h3 {
-    width: 100%;
-    font-size: 150%;
-    justify-content: flex-end;
+.work-container h3 {
+  text-align: left;
+  width: 100%;
+    text-shadow: 2px 2px 2px rgb(201, 197, 197);
+    font-size: 200%;
+   
 }
 
-.work-container p {
-    width:100%;
-   font-size: 18px;
-   justify-content: flex-start;
-   padding: 15px;
-   border-style: solid;
+
+ .img-size {
+    display: flex;
+  justify-content: right;
+  align-items: right;
+
+    height: 100%;
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 10px rgb(116, 113, 113);
+      border-style: solid;
    border-width: 0px 0px 0px 5px;
 }
 
@@ -113,9 +127,10 @@ header h1 a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.contact-container, h3 {
+.contact-container h3 {
     width: 100%;
-    font-size: 150%;
+    text-shadow: 2px 2px 2px rgb(201, 197, 197);
+    font-size: 200%;
     justify-content: flex-end; 
 }
 
