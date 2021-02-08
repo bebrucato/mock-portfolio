@@ -12,7 +12,6 @@ header {
 }
 
 .self img {
-    display: flex;
     border-radius: 20px 20px;
     box-shadow: 5px 0px 10px 0px rgb(65, 64, 64);
     margin-bottom: 15px;
@@ -61,9 +60,9 @@ header h1 a{
 
 .about-me-container {
     display: flex;
+    flex-wrap: wrap;
     max-width: 1000px;
     max-height: 300px;
-    display: flex;
     flex: 1 1 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -79,9 +78,10 @@ header h1 a{
     width:100%;
    font-size: 18px;
    justify-content: flex-start;
-   padding: 15px;
+   padding-left: 15px;
    border-style: solid;
    border-width: 0px 0px 0px 5px;
+   margin-bottom: 15px;
 }
 
 #navlink2 {
@@ -94,50 +94,46 @@ header h1 a{
 
 .work-container {
     display: flex;
-    flex: 1 1 400px;
     flex-direction: row;
-    justify-content: space-evenly;
-    max-height: 800px;
-    max-width: 1000px;
+    flex-wrap: wrap;
+    overflow: auto;
+    flex: 1 1 500px;
+    max-height: 500px;
+    max-width: 500px;
+   
 }
 
 .img-size {
-    flex-wrap: wrap;
-    padding: 0 4px;
     max-width: 100%;
     max-height: 100%;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-style: solid;
+    margin: 15px;
+   border-style: solid;
    border-width: 5px;
 }
 
 .img-size1 { 
-    flex-wrap: wrap;
-    padding: 0 4px;
-    max-width: 90%;
+   max-width: 90%;
     max-height: 90%;
-    padding: 15px;
-    margin-left: 150px;
+    margin: 15px;
     border-style: solid;
    border-width: 5px;
 }
 
 .img-size2 {
-    max-width: 90%;
+   max-width: 90%;
     max-height: 90%;
-    padding: 15px;
-    margin-left: 150px;
+    margin: 15px;
     border-style: solid;
    border-width: 5px;
 }
 
 
 .contact-container {
+    flex-wrap: wrap;
+    flex: 1 1 300px;
     max-width: 1000px;
     max-height: 300px;
     display: flex;
-    flex: 1 1 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -174,9 +170,11 @@ footer {
 @media screen and (max-width: 992px) {
      {
       width: 50%;
+        flex: 50%
     }
 
 @media screen and (max-width: 768px) {
     {
           width: 100%;
+            flex: 50%
         }
