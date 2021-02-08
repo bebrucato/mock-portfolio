@@ -92,7 +92,7 @@ header h1 a{
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }  
 
-.work-container {
+aside .work-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -107,8 +107,8 @@ title {
 }
 
 .img-size {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90%;
+    max-height: 90%;
     margin: 15px;
    border-style: solid;
    border-width: 5px;
