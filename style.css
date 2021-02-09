@@ -78,6 +78,7 @@ main {
     font-size: 200%;
     justify-content: flex-end;
     text-shadow: 2px 2px 2px rgb(201, 197, 197);
+    margin-right: 5%;
 }
 
 .about-me-container p {
@@ -102,6 +103,7 @@ main {
     font-size: 200%;
     justify-content: flex-start;
     text-shadow: 2px 2px 2px rgb(201, 197, 197);
+    margin-right: 5%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }  
 
@@ -115,6 +117,7 @@ main {
     overflow: auto;
     max-height: 400px;
     max-width: 400px;
+    margin-left: 5%;
 }
 
 title {
@@ -125,8 +128,8 @@ title {
     display: flex;
     justify-content: row;
     justify-content: flex-end;
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 100%;
+    max-height: 100%;
     margin: 15px;
    border-style: solid;
    border-width: 5px;
@@ -137,10 +140,13 @@ title {
 }
 
 .img-size1 { 
-   max-width: 90%;
-    max-height: 90%;
+    display: flex;
+    justify-content: row;
+    justify-content: flex-end;
+    max-width: 100%;
+    max-height: 100%;
     margin: 15px;
-    border-style: solid;
+   border-style: solid;
    border-width: 5px;
 }
 
@@ -149,10 +155,13 @@ title {
 }
 
 .img-size2 {
-   max-width: 90%;
-    max-height: 90%;
+    display: flex;
+    justify-content: row;
+    justify-content: flex-end;
+    max-width: 100%;
+    max-height: 100%;
     margin: 15px;
-    border-style: solid;
+   border-style: solid;
    border-width: 5px;
 }
 
@@ -175,15 +184,18 @@ title {
     font-size: 200%;
     justify-content: flex-start;
     text-shadow: 2px 2px 2px rgb(201, 197, 197);
+    margin-right: 5%;
 }
+
 
 .contact-container p {
     width:100%;
-   font-size: 18px;
-   justify-content: flex-start;
-   padding: 15px;
-   border-style: solid;
-   border-width: 0px 0px 0px 5px;
+    font-size: 18px;
+    justify-content: flex-end;
+    padding-left: 15px;
+    border-style: solid;
+    border-width: 0px 0px 0px 5px;
+    margin-bottom: 15px;
 }
 
 
@@ -201,13 +213,15 @@ footer {
 
 
 @media screen and (max-width: 992px) {
-     {
+   main .work-container  {
       width: 50%;
-        
-    }
+        flex: 50%;
+        flex-direction: column;
+    }}
 
 @media screen and (max-width: 768px) {
-    {
+   main .work-container {
           width: 100%;
-            
-        }
+        flex: 100%;
+        flex-direction: column;
+   }}
