@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -19,7 +20,6 @@ header {
 
 header h1 a{
     color:aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 2px rgb(201, 197, 197);
 }
 
@@ -43,9 +43,8 @@ header h1 a{
     color: aliceblue;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100%;
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -53,7 +52,6 @@ main {
 }
 
 .part2, .resume-intro {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
     text-align: left;
     text-shadow: 1px 1px 1px rgb(201, 197, 197);
@@ -68,104 +66,69 @@ main {
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    max-height: 30%px;
-    flex: 1 1 300px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-height: 30%;
+    flex: 1 1 400px;
 }
 
-.about-me-container h3 {
-    display:flex;
+#navlink1 {
+    display: flex;
     font-size: 200%;
-    justify-content: flex-end;
+    justify-content: flex-start;
     text-shadow: 2px 2px 2px rgb(201, 197, 197);
-    margin-right: 5%;
+    padding-right: 21%;
+    border-style: solid;
+    border-width: 0px 5px 0px 0px;
+    margin-bottom: 15px;
+    max-width: 100%;
 }
 
 .about-me-container p {
+    display: flex;
     width:100%;
    font-size: 18px;
-   justify-content: flex-end;
+   justify-content: flex-start;
    padding-left: 15px;
-   border-style: solid;
-   border-width: 0px 0px 0px 5px;
-   margin-bottom: 15px;
+   padding-top: 15px;
 }
 .work-container {
     display: flex;
     flex-direction: row;
    max-width: 100%;
     max-height: 30%px;
-    flex: 1 1 300px;
+    flex: 1 1 400px;
 }
 
  #navlink2 {
-    display:flex;
+    display: flex;
     font-size: 200%;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: row;
     justify-content: flex-start;
     text-shadow: 2px 2px 2px rgb(201, 197, 197);
-    margin-right: 5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 23%;
+    border-style: solid;
+    border-width: 0px 5px 0px 0px;
 }  
-
-
-
-.work-container aside  {
-    display: flex;
-    justify-content: flex-end;
-    flex: 1 1 500px;
-    flex-wrap: wrap;
-    overflow: auto;
-    max-height: 400px;
-    max-width: 400px;
-    margin-left: 5%;
-}
 
 title {
     color: black;
 }
 
-.img-size {
+.img-size, .img-size1, .img-size2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: row;
     justify-content: flex-end;
     max-width: 100%;
     max-height: 100%;
     margin: 15px;
+    padding: 15px;
    border-style: solid;
    border-width: 5px;
 }
 
-.img-size:hover {
-    opacity: .5;
-}
-
-.img-size1 { 
-    display: flex;
-    justify-content: row;
-    justify-content: flex-end;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 15px;
-   border-style: solid;
-   border-width: 5px;
-}
-
-.img-size1:hover {
-    opacity: .5;
-}
-
-.img-size2 {
-    display: flex;
-    justify-content: row;
-    justify-content: flex-end;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 15px;
-   border-style: solid;
-   border-width: 5px;
-}
-
-.img-size2:hover {
+.img-size:hover, .img-size1:hover, .img-size2:hover {
     opacity: .5;
 }
 
@@ -175,16 +138,18 @@ title {
     flex-direction: row;
    max-width: 100%;
     max-height: 30%px;
-    flex: 1 1 300px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex: 1 1 400px;
 }
 
-.contact-container h3 {
-    display:flex;
+#navlink3 {
+    display: flex;
     font-size: 200%;
     justify-content: flex-start;
     text-shadow: 2px 2px 2px rgb(201, 197, 197);
-    margin-right: 5%;
+    padding-right: 20%;
+    border-style: solid;
+    border-width: 0px 5px 0px 0px;
+    margin-bottom: 15px;
 }
 
 
@@ -193,15 +158,11 @@ title {
     font-size: 18px;
     justify-content: flex-end;
     padding-left: 15px;
-    border-style: solid;
-    border-width: 0px 0px 0px 5px;
-    margin-bottom: 15px;
 }
 
 
 footer {
     background-color: rgb(10, 8, 8);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
     margin-top: 10px; 
     margin-bottom: 10px;
@@ -213,14 +174,13 @@ footer {
 
 
 @media screen and (max-width: 992px) {
-   main .work-container  {
+   .about-me-container, .work-container, .contact-container  {
       width: 50%;
         flex: 50%;
-        flex-direction: column;
     }}
 
 @media screen and (max-width: 768px) {
-   main .work-container {
+    .about-me-container, .work-container, .contact-container {
           width: 100%;
         flex: 100%;
         flex-direction: column;
