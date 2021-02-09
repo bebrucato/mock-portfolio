@@ -22,11 +22,7 @@ header h1 a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 2px rgb(201, 197, 197);
 }
-main {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+
 
 .self {
     display: flex;
@@ -49,6 +45,11 @@ main {
     margin-bottom: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .part2, .resume-intro {
@@ -88,6 +89,13 @@ main {
    border-width: 0px 0px 0px 5px;
    margin-bottom: 15px;
 }
+.work-container {
+    display: flex;
+    flex-direction: row;
+   max-width: 100%;
+    max-height: 30%px;
+    flex: 1 1 300px;
+}
 
  #navlink2 {
     display:flex;
@@ -97,13 +105,7 @@ main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }  
 
-.work-container {
-    display: flex;
-    flex-direction: row;
-   max-width: 100%;
-    max-height: 30%px;
-    flex: 1 1 300px;
-}
+
 
 .work-container aside  {
     display: flex;
