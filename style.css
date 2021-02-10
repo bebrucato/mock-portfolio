@@ -75,33 +75,43 @@ h3 {
     flex-wrap: wrap;
     flex: 1 1 400px;
     font-size: 200%;
-    align-items: flex-start;
+    justify-content: flex-start;
     text-shadow: 2px 2px 2px rgb(201, 197, 197);
     border-style: solid;
     border-width: 0px 5px 0px 0px;
     margin-bottom: 15px;
-    width: 100%;
+    margin-right: 20%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#navlink1 {
+    padding-right: 156px;
 }
 
 .about-me-container p {
     display: flex;
-    width:100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 50px;
    font-size: 18px;
-   justify-content: flex-start;
-   padding-left: 15px;
-   padding-top: 15px;
+   margin-right: 20%;
 }
+
 .work-container {
     display: flex;
     flex-direction: row;
    max-width: 100%;
     max-height: 33%px;
     flex: 1 1 400px;
+    margin-right: 20%;
 }
 
 #navlink2 {
-    padding-right: 18%;
-
+    padding-right: 165px;
 }
 
 title {
@@ -111,12 +121,12 @@ title {
 .img-size, .img-size1, .img-size2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: row;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1 1 400px;
     max-width: 100%;
     max-height: 100%;
-    margin: 15px;
-    padding: 15px;
+    margin-top: 50px;
    border-style: solid;
    border-width: 5px;
 }
@@ -141,7 +151,8 @@ title {
     width:100%;
     font-size: 18px;
     justify-content: flex-end;
-    padding-left: 15px;
+    padding: 15px;
+    margin-top: 50px;
 }
 
 
