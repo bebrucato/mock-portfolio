@@ -106,7 +106,7 @@ h3 {
     flex-direction: row;
     justify-content: space-evenly;
    max-width: 100%;
-    max-height: 33%px;
+    max-height: 33%;
     flex: 1 1 400px;
     margin-right: 20%;
     
@@ -125,12 +125,9 @@ title {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    flex: 1 1 400px;
     max-width: 100%;
     max-height: 100%;
     margin-top: 50px;
-   border-style: solid;
-   border-width: 5px;
 }
 
 .img-size:hover, .img-size1:hover, .img-size2:hover {
@@ -150,7 +147,9 @@ title {
 }
 
 
-
+#navlink3 {
+    padding-right: 9px;
+}
 
 .contact-container p {
     width:100%;
@@ -170,17 +169,40 @@ footer {
     text-align: center;
 }
 
+.recentjob {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 33%;
+    flex: 1 1 400px;
+}
 
+h4 {
+    display: flex;
+    align-items: flex-start;
+    font-size: 150%;
+    text-shadow: 2px 2px 2px rgb(201, 197, 197);
+    margin-bottom: 15px;
+    padding-right:20%;
+    max-width: 100%;
+    max-height: 100%;
+}
 
+.list ul {
+    font-size: 18px;
+    text-align: left;
+    margin-right: 20%;
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 992px) {
-   .about-me-container, .work-container, .contact-container  {
+  h3,h4,h5 .about-me-container, .work-container, .contact-container, .recentjob  {
       width: 50%;
         flex: 50%;
     }}
 
 @media screen and (max-width: 768px) {
-    .about-me-container, .work-container, .contact-container {
+   h3,h4,h5 .about-me-container, .work-container, .contact-container, .recentjob {
           width: 100%;
         flex: 100%;
         flex-direction: column;
